@@ -1,0 +1,145 @@
+1) Các tác nhân (Actors) & chức năng chính
+
+Khách hàng (Customer)
+
+Tạo đơn hàng (tạo kiện, nhập thông tin người gửi/nhận, chọn dịch vụ).
+
+Tra cứu trạng thái đơn (tracking).
+
+Hủy hoặc chỉnh sửa đơn (trong điều kiện cho phép).
+
+Thanh toán / xem hóa đơn và lịch sử giao dịch.
+
+Nhân viên vận chuyển (Courier / Driver)
+
+Nhận lệnh giao/nhận hàng.
+
+Cập nhật trạng thái hành trình: đã lấy hàng, đang giao, giao thành công, giao thất bại, trả về.
+
+Ghi chú & chụp ảnh bằng chứng (COD, tình trạng hàng).
+
+Xem lịch trình/route và báo cáo sự cố.
+
+Nhân viên kho (Warehouse staff)
+
+Tiếp nhận & kiểm hàng, cập nhật trạng thái kho (nhập kho, xuất kho).
+
+Gán đơn cho chuyến/xe.
+
+Quản lý vận hành (Operations Manager)
+
+Giám sát hiệu suất giao vận, xem các đơn trễ, vùng tồn đọng.
+
+Gán tài nguyên, tối ưu tuyến, điều phối sự cố.
+
+Tạo báo cáo hoạt động theo thời gian/th vùng.
+
+Bộ phận CSKH / Khiếu nại (Customer Service)
+
+Truy xuất thông tin đơn, xử lý phản hồi/khiếu nại, trao đổi với khách và courier.
+
+CEO / Ban lãnh đạo (Executive)
+
+Xem dashboard tổng quan: số lượng giao dịch, tỉ lệ giao đúng hạn (on-time), doanh thu theo vùng, KPI vận hành.
+
+So sánh xu hướng theo tháng/quý.
+
+Admin / IT
+
+Quản lý người dùng, phân quyền, cấu hình dịch vụ, tích hợp API đối tác (cổng thanh toán, hệ thống hãng tàu,…).
+
+Giám sát hệ thống, audit log, backup.
+
+2) Phân loại từng chức năng theo loại Hệ thống Thông tin (TPS, MIS, DSS, EIS)
+
+Ghi chú: một chức năng thường được hỗ trợ bởi nhiều lớp hệ thống; tôi phân loại theo vai trò chính của chức năng.
+
+TPS (Transaction Processing System) — xử lý giao dịch hằng ngày, dữ liệu vận hành:
+
+Tạo đơn hàng, cập nhật trạng thái giao hàng (courier/warehouse).
+
+Thanh toán, xuất hóa đơn, quản lý COD.
+
+Gán đơn, tạo manifest chuyến.
+Lý do: Đây là các giao dịch tần suất cao, cần tính toàn vẹn và xử lý realtime hoặc gần realtime.
+
+MIS (Management Information System) — báo cáo, thống kê hàng ngày/tuần/tháng cho quản lý:
+
+Báo cáo hiệu suất giao hàng theo khu vực, tài xế, tuyến.
+
+Thống kê số đơn, tỉ lệ hoàn/không hoàn, thời gian trung bình giao hàng.
+Lý do: Cung cấp thông tin tổng hợp cho quản lý điều hành.
+
+DSS (Decision Support System) — hỗ trợ ra quyết định phức tạp, tối ưu hóa:
+
+Hệ gợi ý tối ưu tuyến (route optimization), phân bổ tài xế theo khối lượng.
+
+Phân tích nguyên nhân chậm trễ, mô phỏng kịch bản (thêm tài xế, thay đổi vùng).
+Lý do: Cần phân tích dữ liệu lớn, mô hình và thuật toán (ví dụ TSP/VRP, ML) để đưa ra khuyến nghị.
+
+EIS / ESS (Executive Information System / Executive Support System) — dashboard cho CEO / ban lãnh đạo:
+
+Dashboard tổng quan KPI, heatmap vùng hoạt động, tỉ lệ giao đúng hẹn, revenue overview.
+Lý do: Cung cấp tóm tắt chiến lược, giao diện trực quan cho lãnh đạo để theo dõi tình hình nhanh.
+
+3) Mô hình phát triển phần mềm đề xuất và giải thích
+
+Đề xuất: Agile (Scrum) kết hợp DevOps và kiến trúc microservices (hoặc modular monolith khi quy mô ban đầu nhỏ).
+
+Lý do:
+
+Tính thay đổi yêu cầu cao: Logistics có nhiều yêu cầu vận hành thực tế (thay đổi luồng, tích hợp đối tác, quy trình xử lý khiếu nại). Agile (Sprint ngắn) cho phép phản hồi nhanh, ra mắt tính năng nhỏ thường xuyên và điều chỉnh theo thực tế.
+
+Phân tách domain rõ ràng: Hệ thống có nhiều domain riêng biệt (orders, tracking, warehouse, billing, routing). Microservices hoặc modular design giúp tách rời, dễ triển khai độc lập, scale từng phần (ví dụ scale dịch vụ tracking khi có nhiều update). Nếu đội nhỏ/khởi tạo, bắt đầu bằng modular monolith rồi tách dần.
+
+DevOps & CI/CD: Cần deploy liên tục (fix lỗi, cập nhật route optimization), tích hợp pipeline test tự động để đảm bảo chất lượng và giảm downtime.
+
+Khả năng tích hợp: hệ cần tích hợp cổng thanh toán, SMS/Email gateway, maps/route API, đối tác — kiến trúc service-oriented hỗ trợ tốt.
+
+Yêu cầu vận hành cao: Hệ thống TPS cần độ sẵn sàng cao — DevOps + monitoring (logs, tracing, alert) là cần thiết.
+
+4) 4 sơ đồ UML đề xuất & mục đích sử dụng
+
+Use Case Diagram
+
+Mục đích: Mô tả các tác nhân chính và các nghiệp vụ (use cases) hệ thống hỗ trợ (tạo đơn, tracking, cập nhật trạng thái, xem báo cáo). Dùng cho trao đổi với stakeholders và xác nhận phạm vi chức năng.
+
+Class Diagram (Model / Domain Diagram)
+
+Mục đích: Mô tả các thực thể dữ liệu chính (Order, Shipment, Customer, Courier, Warehouse, Invoice, Route, Event/Status) và quan hệ giữa chúng. Dùng để thiết kế cơ sở dữ liệu và lớp domain trong backend.
+
+Sequence Diagram (ví dụ: luồng "Khách hàng tạo đơn và tracking đến giao thành công")
+
+Mục đích: Minh họa thứ tự tương tác giữa các thành phần (Client → API Gateway → Order Service → Warehouse Service → Courier App → Notification Service). Dùng để thiết kế API, xác định contract và xử lý bất đồng bộ/retry.
+
+Deployment Diagram (hoặc Component Diagram nếu muốn)
+
+Mục đích: Mô tả kiến trúc triển khai: service nào chạy ở đâu (API gateway, auth service, order service, DB, message broker, cache, mobile apps, courier app), mô tả môi trường (on-premise vs cloud), scaling, redundancy. Dùng cho đội vận hành/infra để triển khai và cho các quyết định về scaling, backup và high-availability.
+
+(Ghi chú: nếu bạn muốn sơ đồ phục vụ thiết kế chi tiết luồng nghiệp vụ nội bộ, có thể dùng thêm Activity Diagram để mô tả flow xử lý đơn, nhất là các branch như "giao thành công / giao thất bại / trả về".)
+
+5) Bổ sung: Kiến trúc dữ liệu & tích hợp quan trọng (tóm tắt)
+
+Event-driven architecture cho updates trạng thái (courier publish event → tracking service, notification service subscribe). Giảm latency & tăng độ bền hệ thống.
+
+Database: transactional DB (Postgres/MySQL) cho TPS + data warehouse (Redshift/BigQuery hoặc OLAP) cho báo cáo/MIS/DSS.
+
+Cache & realtime: Redis cho cache các tracking hot; WebSocket/Push notifications cho realtime tracking.
+
+Bảo mật & compliance: authentication (OAuth2 / JWT), RBAC cho phân quyền, mã hóa dữ liệu nhạy cảm, audit log.
+
+Monitoring & KPI: Prometheus/Grafana, alerting, logging (ELK) để giám sát SLA & tỉ lệ giao đúng hẹn.
+
+6) Kết luận ngắn gọn
+
+Hệ thống cần hỗ trợ đồng thời TPS (giao dịch realtime), MIS (báo cáo), DSS (tối ưu & phân tích) và EIS (dashboard lãnh đạo).
+
+Áp dụng Agile + DevOps, bắt đầu modular, ưu tiên phát hành sớm các chức năng TPS cơ bản (tạo đơn, tracking, cập nhật trạng thái) rồi mở rộng MIS/DSS.
+
+Sử dụng Use Case, Class, Sequence, Deployment làm bộ sơ đồ UML chính để chuyển từ phân tích sang thiết kế và triển khai.
+
+Nếu bạn muốn, mình có thể:
+
+Vẽ Use Case + Class Diagram mẫu cho hệ thống này;
+
+Hoặc viết một user story map và backlog sprint đầu tiên (MVP): tính năng nào cần làm trước (tạo đơn, tracking, cập nhật trạng thái, notification).

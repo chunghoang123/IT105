@@ -1,0 +1,6 @@
+
+1. Con người (People): khách hàng, nhà hàng, tài xế giao hàng, nhân viên quản trị hệ thống.
+2. Dữ liệu (Data): thông tin người dùng, nhà hàng, menu, giá, đơn hàng, trạng thái giao hàng, đánh giá, vị trí GPS, thanh toán.
+3. Quy trình (Processes): chọn món → xác nhận → thanh toán → nhà hàng nhận đơn → tài xế giao → khách hàng đánh giá.
+4. Phần mềm (Software): ứng dụng đặt món, phần mềm quản lý nhà hàng, hệ thống máy chủ, bản đồ định vị, thanh toán online.
+5. Phần cứng (Hardware): máy chủ, thiết bị mạng, điện thoại, máy tính, thiết bị GPS, router, máy thanh toán.

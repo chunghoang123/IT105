@@ -1,0 +1,101 @@
+ 1. Giai đoạn Khảo sát & Phân tích yêu cầu (Requirement Analysis)
+
+Mục tiêu: Hiểu rõ nhu cầu của trung tâm y tế và người dân.
+Hoạt động:
+
+Phỏng vấn cán bộ y tế, nhân viên IT, và người dân để thu thập yêu cầu.
+
+Xác định các chức năng chính:
+
+Người dân đăng ký tiêm online (nhập thông tin cá nhân, chọn loại vắc-xin, thời gian mong muốn).
+
+Trung tâm y tế xác nhận, xếp lịch tiêm, gửi thông báo.
+
+Quản lý danh sách người đã tiêm / chưa tiêm.
+
+Xác định các yêu cầu phi chức năng:
+
+Hệ thống phải hoạt động 24/7, bảo mật thông tin cá nhân.
+
+Dễ sử dụng, truy cập được từ điện thoại và máy tính.
+
+Đưa ra tài liệu đặc tả yêu cầu (SRS) để làm cơ sở thiết kế.
+
+ 2. Giai đoạn Thiết kế hệ thống (System Design)
+
+Mục tiêu: Xây dựng bản thiết kế chi tiết cho hệ thống.
+Hoạt động:
+
+Thiết kế kiến trúc hệ thống:
+
+Web application với 2 giao diện: người dân & quản trị (trung tâm).
+
+Backend API, Database, Authentication, Notification service (email/SMS).
+
+Thiết kế cơ sở dữ liệu:
+
+Bảng NguoiDan, DangKyTiem, LichTiem, PhieuTiem.
+
+Thiết kế giao diện người dùng (UI/UX):
+
+Form đăng ký đơn giản, dễ hiểu.
+
+Trang quản lý lịch tiêm và báo cáo thống kê.
+
+Đưa ra tài liệu thiết kế (SDD) – mô tả mô hình dữ liệu, luồng xử lý, giao diện.
+
+ 3. Giai đoạn Triển khai / Lập trình (Implementation)
+
+Mục tiêu: Chuyển thiết kế thành sản phẩm hoạt động được.
+Hoạt động:
+
+Frontend: React, Angular hoặc Vue – hiển thị giao diện đăng ký, lịch tiêm.
+
+Backend: Node.js / Java / .NET – xử lý đăng ký, xác nhận, quản lý lịch.
+
+Database: MySQL hoặc MongoDB – lưu trữ thông tin người dân và lịch tiêm.
+
+Tích hợp: API gửi email/sms xác nhận lịch.
+
+Áp dụng Git, CI/CD để quản lý mã nguồn và tự động triển khai.
+
+ 4. Giai đoạn Kiểm thử (Testing)
+
+Mục tiêu: Đảm bảo hệ thống hoạt động đúng và ổn định.
+Hoạt động:
+
+Unit test: kiểm tra từng module (đăng ký, xác nhận, cập nhật lịch).
+
+Integration test: kiểm tra luồng đăng ký → xác nhận → cập nhật danh sách.
+
+User Acceptance Test (UAT): chạy thử với nhân viên trung tâm y tế.
+
+Kiểm thử bảo mật: đảm bảo dữ liệu cá nhân được mã hóa, không bị rò rỉ.
+
+Ghi nhận lỗi, chỉnh sửa, hoàn thiện phiên bản ổn định.
+
+ 5. Giai đoạn Triển khai (Deployment)
+
+Mục tiêu: Đưa hệ thống vào sử dụng thực tế.
+Hoạt động:
+
+Triển khai lên máy chủ trung tâm y tế hoặc cloud (AWS, Azure).
+
+Cấu hình domain, SSL để đảm bảo truy cập an toàn.
+
+Đào tạo nhân viên y tế sử dụng hệ thống.
+
+Tạo tài liệu hướng dẫn người dân đăng ký tiêm online.
+
+🔄 6. Giai đoạn Bảo trì & Nâng cấp (Maintenance)
+
+Mục tiêu: Duy trì hoạt động ổn định và cải thiện hệ thống.
+Hoạt động:
+
+Theo dõi lỗi, phản hồi người dùng.
+
+Cập nhật dữ liệu vắc-xin, quy trình tiêm mới.
+
+Nâng cấp hệ thống (thêm tính năng thống kê, báo cáo tự động, tích hợp QR Code).
+
+Cập nhật bảo mật và hiệu năng định kỳ.

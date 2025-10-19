@@ -1,0 +1,32 @@
+-Dự án
+A. Phần mềm quản lý điểm cho trường cấp 2, yêu cầu rõ ràng
+-Mô hình phù hợp
+Waterfall (Mô hình thác nước)
+-Giải thích lý do chọn
+   - Yêu cầu đã rõ ràng, ít thay đổi.
+   - Quy mô nhỏ, ít rủi ro.
+   - Có thể triển khai theo từng giai đoạn tuần tự: phân tích → thiết kế → lập trình → kiểm thử → triển khai.
+    Mô hình Waterfall giúp dễ quản lý tiến độ và tài liệu hóa tốt.
+
+
+
+-Dự án
+B. Ứng dụng mobile đặt lịch khám bệnh, yêu cầu linh hoạt
+-Mô hình phù hợp
+Agile (Mô hình linh hoạt)
+-Giải thích lý do chọn
+  - Yêu cầu thay đổi thường xuyên (ví dụ: giao diện, tính năng đặt lịch, tích hợp thanh toán).
+  - Cần phản hồi liên tục từ người dùng và khách hàng.
+  - Có thể phát hành bản chạy thử nhanh, cập nhật liên tục.
+   Agile cho phép phát triển theo vòng lặp ngắn (Sprint), thích hợp với môi trường linh hoạt và lấy người dùng làm trung tâm.
+
+
+-Dự án
+   C. Hệ thống ngân hàng điện tử có bảo mật và độ phức tạp cao
+-Mô hình phù hợp
+Spiral (Mô hình xoắn ốc)
+-Giải thích lý do chọn
+  - Dự án quy mô lớn, rủi ro cao (bảo mật, tài chính, an toàn dữ liệu).
+  - Cần phân tích rủi ro kỹ lưỡng ở mỗi vòng lặp.
+  - Kết hợp ưu điểm của Waterfall (tính hệ thống) và Prototype (kiểm thử sớm). 
+   Spiral giúp giảm rủi ro và đảm bảo an toàn trong quá trình phát triển.

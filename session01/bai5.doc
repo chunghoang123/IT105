@@ -1,0 +1,79 @@
+1. Planning (Lập kế hoạch)
+
+Mục tiêu:
+
+Xây dựng hệ thống điểm danh sinh viên bằng mã QR để tự động hóa quy trình điểm danh.
+
+Giảm sai sót và tiết kiệm thời gian cho giảng viên, sinh viên và phòng đào tạo.
+
+Công việc thực hiện:
+
+Xác định phạm vi dự án: chỉ áp dụng cho các lớp học trong trường, có thể mở rộng sau.
+
+Xác định người dùng chính: giảng viên, sinh viên, phòng đào tạo.
+
+Phân công vai trò trong nhóm: người phân tích, lập trình, thiết kế, kiểm thử.
+
+Lên kế hoạch tiến độ, chi phí, công nghệ sử dụng (ví dụ: ứng dụng mobile Flutter, server Node.js, cơ sở dữ liệu MySQL).
+
+ 2. Requirement Analysis (Phân tích yêu cầu)
+
+Mục tiêu: Hiểu rõ hệ thống cần làm gì.
+
+Các yêu cầu chức năng:
+
+Giảng viên:
+
+Đăng nhập, tạo buổi học, tạo mã QR cho buổi học.
+
+Quét mã QR của sinh viên để xác nhận điểm danh.
+
+Sinh viên:
+
+Đăng nhập vào ứng dụng.
+
+Quét mã QR do giảng viên cung cấp để điểm danh.
+
+Xem lịch sử điểm danh của mình.
+
+Phòng đào tạo:
+
+Xem báo cáo thống kê điểm danh theo lớp, theo giảng viên, theo thời gian.
+
+Các yêu cầu phi chức năng:
+
+Ứng dụng dễ sử dụng, hoạt động ổn định.
+
+Dữ liệu được bảo mật và đồng bộ theo thời gian thực.
+
+Hệ thống tương thích với điện thoại Android/iOS.
+
+→ UML phù hợp:
+
+Use Case Diagram (Sơ đồ ca sử dụng) — để mô tả tương tác giữa người dùng (actor) và các chức năng chính của hệ thống.
+
+ 3. System Design (Thiết kế hệ thống)
+
+Mục tiêu: Mô tả cấu trúc và cách hệ thống hoạt động.
+
+Công việc thực hiện:
+
+Thiết kế kiến trúc tổng thể gồm 3 phần:
+
+Ứng dụng client (mobile app cho sinh viên và giảng viên).
+
+Server xử lý yêu cầu và quản lý cơ sở dữ liệu.
+
+Database lưu thông tin người dùng, lớp học, buổi học, điểm danh.
+
+Thiết kế CSDL:
+
+Bảng SinhVien, GiangVien, LopHoc, BuoiHoc, DiemDanh.
+
+Thiết kế giao diện (UI): màn hình đăng nhập, quét mã, thống kê.
+
+Vẽ UML Diagram hỗ trợ:
+
+Class Diagram: mô tả các lớp dữ liệu và mối quan hệ.
+
+Sequence Diagram: mô tả luồng tương tác khi sinh viên điểm danh bằng QR.

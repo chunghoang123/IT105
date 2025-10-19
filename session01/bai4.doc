@@ -1,0 +1,6 @@
+Planning: xác định mục tiêu, phạm vi, người dùng, chi phí và thời gian dự án.
+Analysis: thu thập yêu cầu từ giảng viên, sinh viên, phòng đào tạo; xác định các chức năng chính như điểm danh, quét mã QR, báo cáo.
+Design: thiết kế kiến trúc hệ thống, cơ sở dữ liệu và giao diện ứng dụng.
+Implementation: lập trình các chức năng như đăng nhập, quét mã QR, lưu dữ liệu và giao diện người dùng.
+Testing: kiểm thử toàn bộ chức năng, phát hiện và sửa lỗi trước khi triển khai.
+Deployment & Maintenance: triển khai ứng dụng cho người dùng, bảo trì, cập nhật và nâng cấp tính năng định kỳ.

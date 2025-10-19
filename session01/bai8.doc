@@ -1,0 +1,21 @@
+Các tác nhân và chức năng:
+
+Học viên: đăng ký tài khoản và khóa học, học bài, làm bài kiểm tra, xem điểm và tiến độ.
+
+Giảng viên: tạo và quản lý bài học, bài kiểm tra, chấm điểm, theo dõi học viên, gửi thông báo.
+
+Admin: quản lý người dùng, khóa học, báo cáo – thống kê, phân quyền và giám sát hệ thống.
+
+Phân loại hệ thống thông tin:
+Hệ thống thuộc loại TPS (Transaction Processing System) để xử lý giao dịch học tập (đăng ký, điểm, bài học) và MIS (Management Information System) để phục vụ quản lý báo cáo, thống kê. Có thể mở rộng thêm DSS (Decision Support System) để hỗ trợ ra quyết định trong tương lai.
+
+Mô hình phát triển phần mềm phù hợp:
+Chọn mô hình Agile (phát triển linh hoạt) vì dự án có nhiều đối tượng người dùng (học viên, giảng viên, admin), yêu cầu có thể thay đổi theo phản hồi thực tế; Agile cho phép chia nhỏ thành các sprint, kiểm thử sớm, cập nhật nhanh và cải tiến liên tục.
+
+Ba sơ đồ UML sẽ sử dụng:
+
+Use Case Diagram – mô tả các tác nhân và chức năng chính.
+
+Class Diagram – mô tả cấu trúc dữ liệu và mối quan hệ giữa các lớp (Học viên, Khóa học, Bài học...).
+
+Sequence Diagram – mô tả luồng tương tác giữa các đối tượng trong các quy trình (ví dụ: học viên đăng ký khóa học).

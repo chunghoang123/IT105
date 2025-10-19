@@ -1,0 +1,21 @@
+-Chức năng doanh nghiệp
+1. Giao dịch bán hàng
+-Loại hệ thống thông tin tương ứng
+TPS (Transaction Processing System)
+-Giải thích ngắn gọn
+Ghi nhận và xử lý các giao dịch hằng ngày như lập hóa đơn, cập nhật tồn kho, thanh toán.
+
+-Chức năng doanh nghiệp
+2. Phân tích xu hướng kinh doanh
+-Loại hệ thống thông tin tương ứng
+DSS (Decision Support System)
+-Giải thích ngắn gọn
+Hỗ trợ nhà quản lý phân tích dữ liệu (ví dụ: sản phẩm bán chạy, thời điểm cao điểm) để ra quyết định kinh doanh.
+
+
+-Chức năng doanh nghiệp
+3.Bảng tổng quan hiệu suất hàng tháng dành cho CEO
+-Loại hệ thống thông tin tương ứng
+EIS (Executive Information System)
+-Giải thích ngắn gọn
+Cung cấp thông tin tổng hợp, biểu đồ và chỉ số KPI giúp lãnh đạo theo dõi hiệu quả kinh doanh ở mức chiến lược.
