@@ -1,0 +1,21 @@
+1. Yêu cầu chức năng (Functional Requirements)
+
+a.Đăng nhập và xác thực người dùng:
+Người dùng có thể đăng nhập bằng tên đăng nhập, mật khẩu hoặc sinh trắc học (vân tay, khuôn mặt).
+
+b.Chuyển tiền nội bộ và liên ngân hàng:
+Hệ thống cho phép người dùng chuyển tiền đến tài khoản trong cùng ngân hàng hoặc khác ngân hàng, có xác nhận OTP.
+
+c.Tra cứu và quản lý tài khoản:
+Người dùng có thể xem số dư, lịch sử giao dịch, thông tin thẻ, và tải sao kê.
+
+2. Yêu cầu phi chức năng (Non-Functional Requirements)
+
+a.Bảo mật cao:
+Dữ liệu giao dịch và thông tin người dùng phải được mã hóa, yêu cầu xác thực hai lớp để đảm bảo an toàn.
+
+b.Hiệu năng và tốc độ:
+Ứng dụng phải xử lý giao dịch trong vòng vài giây, phản hồi nhanh, không bị giật/lát khi sử dụng.
+
+c.Tính sẵn sàng và ổn định:
+Hệ thống phải hoạt động liên tục 24/7, ít bị gián đoạn, có khả năng khôi phục nhanh khi xảy ra sự cố.

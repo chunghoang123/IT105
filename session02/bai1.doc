@@ -1,0 +1,13 @@
+Trong hệ thống quản lý thư viện, các Stakeholders được phân loại thành 5 nhóm chính theo vai trò như sau:
+
+Người dùng cuối (End Users) là những người trực tiếp sử dụng hệ thống, bao gồm thủ thư và người mượn sách như sinh viên, giảng viên. Họ quan tâm đến việc hệ thống có giao diện dễ sử dụng, tốc độ tìm kiếm nhanh, quản lý mượn trả thuận tiện và thông tin sách phải chính xác, cập nhật thường xuyên.
+
+Nhà tài trợ (Sponsor) là ban giám hiệu hoặc giám đốc thư viện – những người cung cấp kinh phí và ra quyết định đầu tư. Họ quan tâm đến hiệu quả đầu tư, tối ưu chi phí triển khai và bảo trì, cũng như việc hệ thống có giúp tăng năng suất làm việc và đáp ứng mục tiêu chiến lược của tổ chức hay không.
+
+Chuyên gia nghiệp vụ (Domain Experts) là những người am hiểu sâu về nghiệp vụ thư viện, như quản lý thư viện hoặc nhân viên phân loại tài liệu. Họ muốn hệ thống phản ánh đúng quy trình nghiệp vụ, hỗ trợ phân loại – thống kê – quản lý tài liệu, và đảm bảo tuân thủ các quy định về lưu trữ, mượn trả sách.
+
+Bộ phận kỹ thuật (Technical Team) bao gồm các phân tích viên, lập trình viên, quản trị cơ sở dữ liệu và kiểm thử viên. Họ chịu trách nhiệm phân tích, thiết kế, phát triển và bảo trì hệ thống. Mối quan tâm của họ là hệ thống phải ổn định, bảo mật, dữ liệu được tổ chức tối ưu, dễ mở rộng và dễ bảo trì lâu dài.
+
+Bên thứ ba (Third Parties) là các tổ chức hoặc dịch vụ bên ngoài có liên kết với hệ thống, chẳng hạn như nhà cung cấp phần mềm tra cứu ISBN, hệ thống xác thực sinh viên (SSO) hoặc dịch vụ thanh toán trực tuyến. Họ quan tâm đến việc kết nối API phải ổn định, dữ liệu người dùng được bảo mật, đảm bảo tính tương thích và tuân thủ các quy định về chia sẻ dữ liệu.
+
+Tóm lại, mỗi nhóm Stakeholders trong hệ thống quản lý thư viện đều có vai trò và mối quan tâm riêng, cùng hướng đến mục tiêu chung là xây dựng một hệ thống hiện đại, tiện lợi, chính xác và dễ sử dụng cho tất cả các bên liên quan.

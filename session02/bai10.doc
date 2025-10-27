@@ -1,0 +1,81 @@
+ChatGPT đã nói:
+
+BÁO CÁO PHÂN TÍCH HỆ THỐNG QUẢN LÝ TUYỂN DỤNG
+(Chuyên viên phân tích hệ thống: [Tên bạn])
+
+1. Các yếu tố môi trường hệ thống
+
+Hệ thống quản lý tuyển dụng (Recruitment Management System – RMS) sẽ hoạt động trong môi trường doanh nghiệp, chịu ảnh hưởng của nhiều yếu tố:
+
+Người dùng: gồm ứng viên (đăng ký, nộp hồ sơ), nhân viên nhân sự (xét duyệt, phỏng vấn), trưởng bộ phận (đánh giá ứng viên), và quản trị viên hệ thống.
+
+Phần cứng: máy chủ (server) lưu trữ dữ liệu tuyển dụng, thiết bị đầu cuối như máy tính, laptop, điện thoại thông minh cho người dùng truy cập.
+
+Phần mềm: hệ điều hành máy chủ (Windows/Linux), trình duyệt web, cơ sở dữ liệu (MySQL, PostgreSQL), và framework phát triển web.
+
+Hệ thống bên ngoài: có thể tích hợp với email server, LinkedIn API, cổng tuyển dụng (VietnamWorks, TopCV), hoặc hệ thống quản lý nhân sự (HRM).
+
+Quy trình nghiệp vụ: quy trình đăng tuyển, nhận hồ sơ, sàng lọc, phỏng vấn, đánh giá, và tuyển dụng nhân viên mới.
+
+Luật lệ & chính sách: phải tuân thủ quy định về bảo mật thông tin cá nhân (Luật An ninh mạng, GDPR nếu áp dụng), và chính sách nội bộ về nhân sự.
+
+2. Phân tích Stakeholders
+Stakeholder	Vai trò	Mối quan tâm	Mức ưu tiên
+Ứng viên (Candidate)	Người dùng cuối	Giao diện dễ dùng, nộp hồ sơ nhanh, nhận phản hồi kịp thời	Critical
+Nhân viên tuyển dụng (HR)	Chuyên viên nghiệp vụ	Dễ dàng lọc hồ sơ, theo dõi tiến trình, quản lý phỏng vấn	Critical
+Trưởng bộ phận (Manager)	Người phê duyệt tuyển dụng	Truy cập thông tin ứng viên, đánh giá, ra quyết định tuyển dụng	Major
+Quản trị viên hệ thống (Admin)	Quản lý cấu hình, tài khoản, dữ liệu	Hệ thống ổn định, phân quyền rõ ràng, dễ bảo trì	Major
+Ban giám đốc (Sponsor)	Cấp vốn và giám sát hiệu quả hệ thống	Báo cáo thống kê, hiệu quả tuyển dụng, tối ưu chi phí	Major
+Bộ phận IT	Bộ phận kỹ thuật duy trì hệ thống	Bảo mật, hiệu năng, tính khả dụng cao	Minor
+3. Các nguồn yêu cầu
+
+Phỏng vấn (Interviews): với nhân viên HR, quản lý tuyển dụng và ứng viên.
+
+Quan sát (Observation): theo dõi quy trình tuyển dụng hiện tại.
+
+Tài liệu hiện có: các biểu mẫu, báo cáo, và chính sách tuyển dụng.
+
+Hệ thống tương tự: tham khảo từ LinkedIn, TopCV, hoặc hệ thống HRM hiện tại.
+
+Hội thảo yêu cầu (Requirement Workshops): thảo luận với các bên liên quan để thống nhất chức năng.
+
+4. Một số yêu cầu chức năng và phi chức năng
+Yêu cầu chức năng
+
+Hệ thống cho phép ứng viên tạo tài khoản và nộp hồ sơ trực tuyến.
+
+Nhân viên HR có thể đăng tin tuyển dụng và quản lý hồ sơ ứng viên.
+
+Trưởng bộ phận có thể đánh giá và xác nhận kết quả phỏng vấn.
+
+Hệ thống gửi email thông báo cho ứng viên khi trạng thái hồ sơ thay đổi.
+
+Quản trị viên có thể phân quyền và theo dõi hoạt động của người dùng.
+
+Yêu cầu phi chức năng
+
+Bảo mật: Dữ liệu ứng viên phải được mã hóa và chỉ HR được phép truy cập.
+
+Hiệu năng: Hệ thống xử lý tối đa 500 người dùng đồng thời với thời gian phản hồi < 2 giây.
+
+Khả dụng: Hệ thống hoạt động 24/7, thời gian downtime không quá 1%.
+
+Thân thiện người dùng: Giao diện hiện đại, dễ thao tác cả trên máy tính và di động.
+
+Khả năng mở rộng: Cho phép thêm chi nhánh hoặc phòng ban mới trong tương lai.
+
+5. Gợi ý cấu trúc tài liệu mô tả yêu cầu (SRS Structure)
+
+Giới thiệu (Introduction) – Mục tiêu, phạm vi, định nghĩa, tài liệu tham khảo.
+
+Tổng quan hệ thống (Overall Description) – Ngữ cảnh hệ thống, người dùng, giới hạn, giả định.
+
+Yêu cầu chức năng (Functional Requirements) – Các chức năng cụ thể: đăng nhập, quản lý hồ sơ, quy trình tuyển dụng.
+
+Yêu cầu phi chức năng (Non-functional Requirements) – Hiệu năng, bảo mật, khả dụng, tính mở rộng.
+
+Giao diện và môi trường hệ thống (System Interface & Environment) – Phần cứng, phần mềm, và hệ thống bên ngoài.
+
+Biểu đồ mô tả (UML Diagrams) – Use Case, Sequence, và Class Diagram minh họa luồng hoạt động.
+
+Phụ lục (Appendix) – Mockup giao diện, biểu mẫu, và tài liệu tham khảo.

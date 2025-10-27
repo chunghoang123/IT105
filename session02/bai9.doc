@@ -1,0 +1,44 @@
+Đề cương Tài liệu Đặc tả Yêu cầu Phần mềm (SRS) cho hệ thống đặt món ăn tại quán
+
+1. Giới thiệu (Introduction)
+
+1.1 Mục đích (Purpose) – Trình bày mục tiêu của hệ thống đặt món ăn, đối tượng người dùng và phạm vi sử dụng.
+1.2 Phạm vi hệ thống (Scope) – Mô tả tổng quan các chức năng chính như đặt món, thanh toán, và quản lý đơn hàng.
+1.3 Định nghĩa và thuật ngữ (Definitions) – Giải thích các thuật ngữ chuyên môn như “người dùng cuối”, “đơn hàng”, “menu điện tử”.
+1.4 Tài liệu tham khảo (References) – Liệt kê các tài liệu, tiêu chuẩn hoặc hệ thống tham khảo khi xây dựng SRS.
+
+2. Tổng quan hệ thống (Overall Description)
+
+2.1 Góc nhìn hệ thống (System Perspective) – Mô tả cách hệ thống tương tác với người dùng và các hệ thống khác (như hệ thống thanh toán online).
+2.2 Chức năng của sản phẩm (Product Functions) – Giới thiệu ngắn gọn các nhóm chức năng: đặt món, quản lý đơn, thanh toán, quản trị quán.
+2.3 Đặc điểm người dùng (User Characteristics) – Phân loại người dùng: khách hàng, nhân viên phục vụ, quản lý.
+2.4 Ràng buộc (Constraints) – Các giới hạn kỹ thuật hoặc pháp lý (ví dụ: bảo mật thanh toán, tương thích thiết bị di động).
+2.5 Giả định và phụ thuộc (Assumptions and Dependencies) – Những điều kiện được giả định, như quán có kết nối Internet ổn định.
+
+3. Yêu cầu chức năng (Functional Requirements)
+
+3.1 Đăng nhập và quản lý tài khoản – Người dùng có thể đăng ký, đăng nhập, cập nhật thông tin cá nhân.
+3.2 Đặt món ăn – Hiển thị menu, chọn món, thêm ghi chú, xác nhận đơn hàng.
+3.3 Thanh toán – Hỗ trợ thanh toán tiền mặt hoặc online.
+3.4 Quản lý đơn hàng – Theo dõi, hủy hoặc sửa đơn trước khi xác nhận.
+3.5 Quản trị hệ thống – Quản lý menu, giá, và thống kê doanh thu cho quản lý quán.
+
+4. Yêu cầu phi chức năng (Non-functional Requirements)
+
+4.1 Hiệu năng (Performance) – Thời gian phản hồi < 3 giây cho mỗi thao tác.
+4.2 Bảo mật (Security) – Dữ liệu người dùng và giao dịch phải được mã hóa.
+4.3 Tính khả dụng (Usability) – Giao diện dễ dùng, hỗ trợ cả điện thoại và máy tính.
+4.4 Độ tin cậy (Reliability) – Hệ thống hoạt động ổn định, downtime tối đa < 1%.
+4.5 Khả năng mở rộng (Scalability) – Dễ mở rộng khi có thêm chi nhánh quán.
+
+5. Môi trường hệ thống (System Environment)
+
+5.1 Phần cứng (Hardware Requirements) – Máy chủ lưu trữ, thiết bị đầu cuối (máy tính bảng, điện thoại).
+5.2 Phần mềm (Software Requirements) – Hệ điều hành, cơ sở dữ liệu, trình duyệt hỗ trợ.
+5.3 Hệ thống bên ngoài (External Systems) – Cổng thanh toán, API giao đồ ăn nếu có.
+
+6. Phụ lục (Appendix)
+
+6.1 Biểu đồ UML (UML Diagrams) – Bao gồm Use Case, Sequence, và Class Diagram.
+6.2 Mockup giao diện – Minh họa các màn hình chính của hệ thống.
+6.3 Tài liệu tham khảo bổ sung – Các chuẩn phát triển hoặc hướng dẫn thiết kế UI/UX.

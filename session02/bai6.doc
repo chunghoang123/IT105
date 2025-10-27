@@ -1,0 +1,40 @@
+Hệ thống được chọn: Hệ thống quản lý bệnh viện (Hospital Management System)
+1. Các yếu tố môi trường ảnh hưởng đến hệ thống
+
+Người dùng (Users)
+
+Phần cứng (Hardware)
+
+Phần mềm (Software)
+
+Hệ thống bên ngoài (External Systems)
+
+Quy trình nghiệp vụ (Business Processes)
+
+Luật lệ và quy định (Regulations & Policies)
+
+2. Giải thích cách từng yếu tố tác động đến yêu cầu kỹ thuật
+
+1. Người dùng (Users):
+Người dùng bao gồm bác sĩ, y tá, nhân viên tiếp nhận, quản trị viên và bệnh nhân. Mỗi nhóm có nhu cầu sử dụng khác nhau nên hệ thống phải có giao diện thân thiện, phân quyền rõ ràng, và hỗ trợ đa vai trò.
+➡ Ví dụ: Bác sĩ cần truy cập hồ sơ bệnh án; bệnh nhân chỉ được xem lịch hẹn và kết quả xét nghiệm của mình.
+
+2. Phần cứng (Hardware):
+Bệnh viện có nhiều thiết bị như máy tính, máy in hóa đơn, máy quét mã bệnh nhân, và máy chủ trung tâm. Điều này đòi hỏi hệ thống phải tương thích với nhiều thiết bị, đảm bảo tốc độ xử lý nhanh và hoạt động ổn định trong môi trường mạng nội bộ.
+➡ Ví dụ: Hệ thống cần hỗ trợ in phiếu khám và kết nối với máy xét nghiệm.
+
+3. Phần mềm (Software):
+Bao gồm hệ điều hành, trình duyệt web, phần mềm cơ sở dữ liệu, hoặc các ứng dụng bệnh viện khác. Yêu cầu kỹ thuật phải đảm bảo tương thích phần mềm, cấu trúc linh hoạt, và có thể tích hợp với các module khác trong tương lai.
+➡ Ví dụ: Hệ thống cần hoạt động tốt trên Windows, Linux, hoặc qua trình duyệt web như Chrome và Edge.
+
+4. Hệ thống bên ngoài (External Systems):
+Liên quan đến các hệ thống như bảo hiểm y tế, hệ thống thanh toán, và cơ quan quản lý y tế. Hệ thống phải có khả năng trao đổi dữ liệu an toàn qua API, đảm bảo chuẩn định dạng dữ liệu (XML, JSON) và bảo mật khi truyền tải.
+➡ Ví dụ: Gửi dữ liệu bảo hiểm y tế điện tử cho Bộ Y tế qua API.
+
+5. Quy trình nghiệp vụ (Business Processes):
+Bao gồm quy trình tiếp nhận bệnh nhân, khám bệnh, kê đơn, xét nghiệm, thanh toán, và lưu trữ hồ sơ. Mỗi quy trình ảnh hưởng đến thiết kế luồng xử lý và chức năng phần mềm.
+➡ Ví dụ: Hệ thống phải hỗ trợ quy trình “khám → xét nghiệm → kê đơn → thanh toán” liền mạch, không gián đoạn.
+
+6. Luật lệ và quy định (Regulations & Policies):
+Bệnh viện phải tuân thủ các quy định về bảo mật thông tin y tế, lưu trữ hồ sơ bệnh án, và báo cáo dữ liệu cho Bộ Y tế. Điều này yêu cầu hệ thống phải có mã hóa dữ liệu, sao lưu định kỳ, và quản lý quyền truy cập nghiêm ngặt.
+➡ Ví dụ: Tuân thủ quy định bảo vệ dữ liệu cá nhân theo Nghị định 13/2023/NĐ-CP.

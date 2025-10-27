@@ -1,0 +1,21 @@
+Mô tả quy trình: Mua hàng online trên hệ thống thương mại điện tử (ví dụ: Shopee, Tiki, Lazada)
+
+Người dùng đăng nhập vào tài khoản, tìm kiếm sản phẩm mong muốn, thêm vào giỏ hàng, sau đó tiến hành đặt mua. Hệ thống xử lý thanh toán, xác nhận đơn hàng và thông báo cho người bán để giao hàng. Khi hàng được giao thành công, người dùng có thể đánh giá sản phẩm.
+
+1. Yêu cầu chức năng:
+
+Hệ thống cho phép người dùng đăng ký và đăng nhập tài khoản.
+
+Hệ thống hỗ trợ tìm kiếm sản phẩm theo tên, danh mục hoặc giá.
+
+Hệ thống cho phép người dùng đặt hàng và thanh toán trực tuyến.
+
+Hệ thống gửi thông báo trạng thái đơn hàng (xác nhận, giao, hoàn tất).
+
+2. Yêu cầu phi chức năng:
+
+Hệ thống phải đảm bảo thời gian phản hồi dưới 3 giây cho mỗi thao tác tìm kiếm.
+
+Giao diện phải thân thiện, dễ sử dụng cho cả người mới và người có kinh nghiệm.
+
+Dữ liệu người dùng và thông tin thanh toán phải được mã hóa và bảo mật tuyệt đối.

@@ -1,0 +1,25 @@
+Cấu trúc tài liệu SRS cho hệ thống học trực tuyến
+
+1. Giới thiệu (Introduction)
+Giới thiệu tổng quan về hệ thống học trực tuyến, mục tiêu phát triển và phạm vi ứng dụng. Phần này giúp người đọc hiểu rõ mục đích và đối tượng mà phần mềm hướng đến.
+
+2. Mô tả tổng quan (Overall Description)
+Trình bày bối cảnh hệ thống, các loại người dùng (giảng viên, sinh viên, quản trị viên), chức năng tổng quát và các ràng buộc kỹ thuật. Mục này giúp xác định phạm vi hoạt động của hệ thống.
+
+3. Các yêu cầu chức năng (Functional Requirements)
+Liệt kê chi tiết các chức năng mà hệ thống cần có, như: đăng nhập, quản lý khóa học, làm bài kiểm tra, chấm điểm và trao đổi giữa giảng viên – sinh viên.
+
+4. Các yêu cầu phi chức năng (Non-Functional Requirements)
+Mô tả các yêu cầu về hiệu năng, bảo mật, độ tin cậy, khả năng mở rộng, giao diện người dùng và thời gian phản hồi của hệ thống.
+
+5. Mô hình và giao diện hệ thống (System Models and Interfaces)
+Trình bày sơ đồ use case, biểu đồ luồng dữ liệu (DFD), sơ đồ lớp, và các mô tả giao diện người dùng để minh họa cách hệ thống hoạt động.
+
+6. Ràng buộc và giả định (Constraints and Assumptions)
+Nêu các điều kiện giới hạn như yêu cầu phần cứng, phần mềm, môi trường hoạt động, cũng như các giả định trong quá trình thiết kế và triển khai.
+
+7. Yêu cầu cơ sở dữ liệu (Database Requirements)
+Mô tả các bảng dữ liệu chính (người dùng, khóa học, bài học, điểm số, bài nộp), các mối quan hệ giữa chúng và yêu cầu về truy cập dữ liệu.
+
+8. Phụ lục (Appendices)
+Bao gồm thuật ngữ chuyên ngành, tài liệu tham khảo, và thông tin bổ sung giúp người đọc hiểu rõ hơn các phần trước.
