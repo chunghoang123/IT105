@@ -1,0 +1,139 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="cKsNgE1HWDC_DLKnr10g">
+    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-1" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="50" y="310" width="770" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-26" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-1">
+          <mxGeometry width="770" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-27" value="Actor" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-26">
+          <mxGeometry width="256" height="78" as="geometry">
+            <mxRectangle width="256" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-28" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;Loại Actor&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-26">
+          <mxGeometry x="256" width="258" height="78" as="geometry">
+            <mxRectangle width="258" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-29" value="&lt;table&gt;&lt;thead data-end=&quot;205&quot; data-start=&quot;113&quot;&gt;&lt;tr data-end=&quot;205&quot; data-start=&quot;113&quot;&gt;&lt;th data-col-size=&quot;md&quot; data-end=&quot;205&quot; data-start=&quot;154&quot;&gt;Use Case phục vụ&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;394&quot; data-start=&quot;297&quot;&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;321&quot; data-start=&quot;297&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-26">
+          <mxGeometry x="514" width="256" height="78" as="geometry">
+            <mxRectangle width="256" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-1">
+          <mxGeometry y="78" width="770" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-3" value="Khách hàng&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-2">
+          <mxGeometry width="256" height="79" as="geometry">
+            <mxRectangle width="256" height="79" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-4" value="Primary" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-2">
+          <mxGeometry x="256" width="258" height="79" as="geometry">
+            <mxRectangle width="258" height="79" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-5" value="&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;394&quot; data-start=&quot;297&quot;&gt;&lt;td data-end=&quot;394&quot; data-start=&quot;337&quot; data-col-size=&quot;md&quot;&gt;Đặt món ăn, Thanh toán, Xem lịch sử đơn, Xem đánh giá&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;504&quot; data-start=&quot;395&quot;&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;419&quot; data-start=&quot;395&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-2">
+          <mxGeometry x="514" width="256" height="79" as="geometry">
+            <mxRectangle width="256" height="79" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-1">
+          <mxGeometry y="157" width="770" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-7" value="&lt;div&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;419&quot; data-start=&quot;395&quot;&gt;Shipper (Giao hàng)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td data-end=&quot;435&quot; data-start=&quot;419&quot; data-col-size=&quot;sm&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-6">
+          <mxGeometry width="256" height="79" as="geometry">
+            <mxRectangle width="256" height="79" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-8" value="Primary" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-6">
+          <mxGeometry x="256" width="258" height="79" as="geometry">
+            <mxRectangle width="258" height="79" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-9" value="&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;504&quot; data-start=&quot;395&quot;&gt;&lt;td data-end=&quot;504&quot; data-start=&quot;435&quot; data-col-size=&quot;md&quot;&gt;Nhận đơn hàng, Cập nhật trạng thái giao, Xác nhận giao thành công&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;597&quot; data-start=&quot;505&quot;&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;530&quot; data-start=&quot;505&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-6">
+          <mxGeometry x="514" width="256" height="79" as="geometry">
+            <mxRectangle width="256" height="79" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-1">
+          <mxGeometry y="236" width="770" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-15" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;530&quot; data-start=&quot;505&quot;&gt;Nhà hàng / Quán ăn&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td data-end=&quot;546&quot; data-start=&quot;530&quot; data-col-size=&quot;sm&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-14">
+          <mxGeometry width="256" height="78" as="geometry">
+            <mxRectangle width="256" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-16" value="&#xa;Primary&#xa;&#xa;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-14">
+          <mxGeometry x="256" width="258" height="78" as="geometry">
+            <mxRectangle width="258" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-17" value="&#xa;&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;597&quot; data-start=&quot;505&quot;&gt;&lt;td data-end=&quot;597&quot; data-start=&quot;546&quot; data-col-size=&quot;md&quot;&gt;Quản lý menu, Nhận đơn, Cập nhật trạng thái đơn&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;689&quot; data-start=&quot;598&quot;&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;623&quot; data-start=&quot;598&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&#xa;&#xa;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-14">
+          <mxGeometry x="514" width="256" height="78" as="geometry">
+            <mxRectangle width="256" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-18" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-1">
+          <mxGeometry y="314" width="770" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-19" value="&#xa;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;623&quot; data-start=&quot;598&quot;&gt;Hệ thống thanh toán&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td data-end=&quot;639&quot; data-start=&quot;623&quot; data-col-size=&quot;sm&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&#xa;&#xa;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-18">
+          <mxGeometry width="256" height="79" as="geometry">
+            <mxRectangle width="256" height="79" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-20" value="&#xa;Secondary&#xa;&#xa;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-18">
+          <mxGeometry x="256" width="258" height="79" as="geometry">
+            <mxRectangle width="258" height="79" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-21" value="&#xa;&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;689&quot; data-start=&quot;598&quot;&gt;&lt;td data-end=&quot;689&quot; data-start=&quot;639&quot; data-col-size=&quot;md&quot;&gt;Xử lý thanh toán online&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;780&quot; data-start=&quot;690&quot;&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;714&quot; data-start=&quot;690&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&#xa;&#xa;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-18">
+          <mxGeometry x="514" width="256" height="79" as="geometry">
+            <mxRectangle width="256" height="79" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-22" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-1">
+          <mxGeometry y="393" width="770" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-23" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;714&quot; data-start=&quot;690&quot;&gt;Hệ thống thông báo&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td data-end=&quot;730&quot; data-start=&quot;714&quot; data-col-size=&quot;sm&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-22">
+          <mxGeometry width="256" height="79" as="geometry">
+            <mxRectangle width="256" height="79" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-24" value="&#xa;Secondary&#xa;&#xa;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-22">
+          <mxGeometry x="256" width="258" height="79" as="geometry">
+            <mxRectangle width="258" height="79" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-25" value="&#xa;&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;780&quot; data-start=&quot;690&quot;&gt;&lt;td data-end=&quot;780&quot; data-start=&quot;730&quot; data-col-size=&quot;md&quot;&gt;Gửi thông báo đơn hàng, nhắc lịch giao hàng&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;879&quot; data-start=&quot;781&quot;&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;805&quot; data-start=&quot;781&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&#xa;&#xa;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-22">
+          <mxGeometry x="514" width="256" height="79" as="geometry">
+            <mxRectangle width="256" height="79" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-30" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-1">
+          <mxGeometry y="472" width="770" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-31" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;805&quot; data-start=&quot;781&quot;&gt;Quản trị viên (Admin)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td data-end=&quot;821&quot; data-start=&quot;805&quot; data-col-size=&quot;sm&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-30">
+          <mxGeometry width="256" height="78" as="geometry">
+            <mxRectangle width="256" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-32" value="&#xa;Secondary&#xa;&#xa;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-30">
+          <mxGeometry x="256" width="258" height="78" as="geometry">
+            <mxRectangle width="258" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOx2Jejmq_OyvW1Wutyb-33" value="&#xa;&lt;div class=&quot;_tableContainer_1rjym_1&quot;&gt;&lt;div class=&quot;group _tableWrapper_1rjym_13 flex w-fit flex-col-reverse&quot; tabindex=&quot;-1&quot;&gt;&lt;table class=&quot;w-fit min-w-(--thread-content-width)&quot; data-end=&quot;879&quot; data-start=&quot;113&quot;&gt;&lt;tbody data-end=&quot;879&quot; data-start=&quot;297&quot;&gt;&lt;tr data-end=&quot;879&quot; data-start=&quot;781&quot;&gt;&lt;td data-end=&quot;879&quot; data-start=&quot;821&quot; data-col-size=&quot;md&quot;&gt;Quản lý người dùng, Quản lý nhà hàng, Thống kê dữ liệu&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&#xa;&#xa;&#xa;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="tOx2Jejmq_OyvW1Wutyb-30">
+          <mxGeometry x="514" width="256" height="78" as="geometry">
+            <mxRectangle width="256" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

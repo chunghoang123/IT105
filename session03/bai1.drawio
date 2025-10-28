@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram id="usecase_xemphim" name="Use Case Xem Phim">
+    <mxGraphModel dx="1348" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3oxK_HESwiiqXsIdMMO7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3oxK_HESwiiqXsIdMMO7-8" target="3oxK_HESwiiqXsIdMMO7-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3oxK_HESwiiqXsIdMMO7-8" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="350" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3oxK_HESwiiqXsIdMMO7-9" value="User" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3oxK_HESwiiqXsIdMMO7-10" value="Xem chi tiết phim" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="340" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3oxK_HESwiiqXsIdMMO7-12" value="&amp;nbsp;Xem trailer&amp;nbsp;&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="260" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3oxK_HESwiiqXsIdMMO7-13" value="Xem bình luận" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="410" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3oxK_HESwiiqXsIdMMO7-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.011;entryY=0.675;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classicThin;endFill=1;startArrow=classicThin;startFill=1;" edge="1" parent="1" source="3oxK_HESwiiqXsIdMMO7-10" target="3oxK_HESwiiqXsIdMMO7-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3oxK_HESwiiqXsIdMMO7-16" value="include" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3oxK_HESwiiqXsIdMMO7-17" value="include" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3oxK_HESwiiqXsIdMMO7-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.011;entryY=0.675;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classicThin;endFill=1;startArrow=classicThin;startFill=1;exitX=0.936;exitY=0.713;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3oxK_HESwiiqXsIdMMO7-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="490" as="sourcePoint" />
+            <mxPoint x="544" y="446" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
